@@ -1,0 +1,89 @@
+tap "eu-ge-ne/tap"
+tap "oven-sh/bun"
+# Static checker for GitHub Actions workflow files
+brew "actionlint"
+# Secure runtime for JavaScript and TypeScript
+brew "deno"
+# Modern, maintained replacement for ls
+brew "eza"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
+# Fast and simple Node.js version manager
+brew "fnm"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# GitHub command-line tool
+brew "gh"
+# Distributed revision control system
+brew "git"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
+# Post-modern modal text editor
+brew "helix"
+# Graphical front-end for GCC's coverage testing tool (gcov)
+brew "lcov"
+# Fast, disk space efficient package manager
+brew "pnpm"
+# PDF rendering library (based on the xpdf-3.0 code base)
+brew "poppler"
+# Autoformat shell script source code
+brew "shfmt"
+# Cross-shell prompt for astronauts
+brew "starship"
+# Markup-based typesetting system
+brew "typst"
+# Vi 'workalike' with many additional features
+brew "vim"
+# Web Assembly Binary Toolkit
+brew "wabt"
+# Why is this running?
+brew "witr"
+# Blazing fast terminal file manager written in Rust, based on async I/O
+brew "yazi"
+# Feature-rich command-line audio/video downloader
+brew "yt-dlp"
+# Programming language designed for robustness, optimality, and clarity
+brew "zig"
+# Minimalistic TUI text editor
+brew "eu-ge-ne/tap/toy"
+# Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
+brew "oven-sh/bun/bun"
+cask "font-fira-code"
+cask "font-fira-code-nerd-font"
+cask "font-symbols-only-nerd-font"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
+# Password manager app
+cask "keepassxc"
+# GPU-based terminal emulator
+cask "kitty"
+# Utility to uninstall apps and remove leftover files from old/uninstalled apps
+cask "pearcleaner"
+# Multimedia player
+cask "vlc"
+vscode "angular.ng-template"
+vscode "bierner.markdown-mermaid"
+vscode "bradlc.vscode-tailwindcss"
+vscode "davidanson.vscode-markdownlint"
+vscode "denoland.vscode-deno"
+vscode "esbenp.prettier-vscode"
+vscode "github.vscode-github-actions"
+vscode "golang.go"
+vscode "gruntfuggly.todo-tree"
+vscode "ms-vscode.hexeditor"
+vscode "oderwat.indent-rainbow"
+vscode "rangav.vscode-thunder-client"
+vscode "rust-lang.rust-analyzer"
+vscode "svelte.svelte-vscode"
+vscode "tamasfe.even-better-toml"
+vscode "tyriar.lorem-ipsum"
+vscode "vadimcn.vscode-lldb"
+vscode "vscode-icons-team.vscode-icons"
+vscode "vscodevim.vim"
+vscode "vue.volar"
+vscode "yzhang.markdown-all-in-one"
+go "github.com/go-delve/delve/cmd/dlv"
+go "golang.org/x/tools/gopls"
+go "honnef.co/go/tools/cmd/staticcheck"
