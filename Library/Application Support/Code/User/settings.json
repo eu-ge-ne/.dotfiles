@@ -1,0 +1,52 @@
+{
+  // !
+  "telemetry.editStats.enabled": false,
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "telemetry.feedback.enabled": false,
+  "workbench.enableExperiments": false,
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  // Editor
+  "editor.fontSize": 15,
+  "editor.fontFamily": "Fira Code Retina",
+  "editor.formatOnSave": true,
+  "editor.inlayHints.enabled": "offUnlessPressed",
+  "editor.renderWhitespace": "trailing",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  //
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  //
+  "files.autoSave": "afterDelay",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  //
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.branchRandomName.enable": true,
+  //
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.minimumContrastRatio": 1,
+  "terminal.integrated.defaultLocation": "editor",
+  //
+  "workbench.tree.indent": 32,
+  "workbench.iconTheme": "vscode-icons",
+  "markdown.extension.toc.levels": "2..6",
+  "workbench.colorTheme": "Default Dark+",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "svelte.enable-ts-plugin": true,
+  "tailwindCSS.classFunctions": ["tv"],
+  // Go
+  "gopls": {
+    "ui.semanticTokens": true
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[go.mod]": {
+    "editor.defaultFormatter": "golang.go"
+  }
+}
