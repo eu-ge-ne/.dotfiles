@@ -10,3 +10,7 @@ rm $HOME/.dotfiles-tmp
 ## Brew
 
 https://docs.brew.sh/Brew-Bundle-and-Brewfile
+
+```bash
+brew bundle dump --global --force --describe --brews --casks --taps
+```
