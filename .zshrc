@@ -14,8 +14,8 @@ function y() {
 # eza
 alias ls="eza -1lab --icons=always --group-directories-first"
 
-# fnm
-eval "$(fnm env --use-on-cd --shell zsh)"
+# mise
+eval "$(mise activate zsh)"
 
 # pnpm
 export PNPM_HOME="/Users/eug/Library/pnpm"

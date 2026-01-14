@@ -8,8 +8,6 @@ brew "deno"
 brew "eza"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
-# Fast and simple Node.js version manager
-brew "fnm"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # GitHub command-line tool
@@ -24,6 +22,8 @@ brew "graphviz"
 brew "helix"
 # Graphical front-end for GCC's coverage testing tool (gcov)
 brew "lcov"
+# Polyglot runtime manager (asdf rust clone)
+brew "mise"
 # Fast, disk space efficient package manager
 brew "pnpm"
 # PDF rendering library (based on the xpdf-3.0 code base)
@@ -32,8 +32,6 @@ brew "poppler"
 brew "shfmt"
 # Cross-shell prompt for astronauts
 brew "starship"
-# Markup-based typesetting system
-brew "typst"
 # Vi 'workalike' with many additional features
 brew "vim"
 # Web Assembly Binary Toolkit
@@ -44,8 +42,6 @@ brew "witr"
 brew "yazi"
 # Feature-rich command-line audio/video downloader
 brew "yt-dlp"
-# Programming language designed for robustness, optimality, and clarity
-brew "zig"
 # Minimalistic TUI text editor
 brew "eu-ge-ne/tap/toy"
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.

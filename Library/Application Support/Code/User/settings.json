@@ -48,5 +48,6 @@
   },
   "[go.mod]": {
     "editor.defaultFormatter": "golang.go"
-  }
+  },
+  "redhat.telemetry.enabled": false
 }
