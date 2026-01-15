@@ -30,6 +30,10 @@
   "terminal.integrated.fontSize": 15,
   "terminal.integrated.minimumContrastRatio": 1,
   "terminal.integrated.defaultLocation": "editor",
+  "terminal.integrated.initialHint": false,
+  "terminal.integrated.suggest.providers": {
+    "vscode.terminal-suggest": false
+  },
   //
   "workbench.tree.indent": 32,
   "workbench.iconTheme": "vscode-icons",
