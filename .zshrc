@@ -14,9 +14,6 @@ function y() {
 # eza
 alias ls="eza -1lab --icons=always --group-directories-first"
 
-# mise
-eval "$(mise activate zsh)"
-
 # pnpm
 export PNPM_HOME="/Users/eug/Library/pnpm"
 case ":$PATH:" in

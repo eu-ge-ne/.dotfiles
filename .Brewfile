@@ -6,7 +6,7 @@ brew "actionlint"
 brew "deno"
 # Modern, maintained replacement for ls
 brew "eza"
-# Play, record, convert, and stream audio and video
+# Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
 # Command-line fuzzy finder written in Go
 brew "fzf"
@@ -22,8 +22,8 @@ brew "graphviz"
 brew "helix"
 # Graphical front-end for GCC's coverage testing tool (gcov)
 brew "lcov"
-# Polyglot runtime manager (asdf rust clone)
-brew "mise"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node"
 # Fast, disk space efficient package manager
 brew "pnpm"
 # PDF rendering library (based on the xpdf-3.0 code base)
