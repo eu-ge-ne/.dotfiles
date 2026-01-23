@@ -1,4 +1,12 @@
 {
+  // !
+  "telemetry.telemetryLevel": "off",
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "telemetry.editStats.enabled": false,
+  "workbench.enableExperiments": false,
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "workbench.commandPalette.experimental.enableNaturalLanguageSearch": false,
   // Editor
   "editor.fontSize": 15,
   "editor.fontFamily": "Fira Code Retina",
@@ -28,6 +36,7 @@
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
   "git.branchRandomName.enable": true,
+  "git.autofetch": "all",
   //
   "terminal.integrated.fontSize": 15,
   "terminal.integrated.minimumContrastRatio": 1,
