@@ -1,0 +1,64 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "disable_ai": true,
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "auto_update": false,
+  // UI
+  "theme": {
+    "mode": "system",
+    "light": "Ayu Light",
+    "dark": "Ayu Dark",
+  },
+  "theme_overrides": {
+    "Ayu Dark": {
+      "text.muted": "#ccc",
+    },
+  },
+  "icon_theme": "VSCode Icons for Zed (Dark)",
+  "buffer_font_family": "Fira Code",
+  "buffer_font_weight": 500.0,
+  "show_whitespaces": "trailing",
+  "colorize_brackets": true,
+  "minimap": {
+    "show": "always",
+  },
+  "tab_bar": {
+    "show_pinned_tabs_in_separate_row": true,
+  },
+  "git_panel": {
+    "tree_view": true,
+  },
+  "title_bar": {
+    "show_sign_in": false,
+  },
+  "diagnostics": {
+    "inline": {
+      "enabled": true,
+    },
+  },
+  // Editor
+  "vim_mode": true,
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000,
+    },
+  },
+  "prettier": {
+    "allowed": true,
+  },
+  "languages": {
+    "Go": {
+      "formatter": "language_server",
+    },
+  },
+}
