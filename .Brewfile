@@ -18,10 +18,10 @@ brew "git"
 brew "go"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
-# Post-modern modal text editor
-brew "helix"
 # Graphical front-end for GCC's coverage testing tool (gcov)
 brew "lcov"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
 # Open-source, cross-platform JavaScript runtime environment
 brew "node"
 # Fast, disk space efficient package manager
