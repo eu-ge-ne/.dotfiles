@@ -7,6 +7,8 @@
   "workbench.enableExperiments": false,
   "workbench.settings.enableNaturalLanguageSearch": false,
   "workbench.commandPalette.experimental.enableNaturalLanguageSearch": false,
+  "chat.disableAIFeatures": true,
+  "workbench.settings.showAISearchToggle": false,
   // Editor
   "editor.fontSize": 15,
   "editor.fontFamily": "Fira Code Retina",
@@ -14,9 +16,11 @@
   "editor.inlayHints.enabled": "offUnlessPressed",
   "editor.renderWhitespace": "trailing",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  // Vim
-  "extensions.experimental.affinity": {
-    "asvetliakov.vscode-neovim": 1,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": false,
+  "editor.guides.highlightActiveBracketPair": false,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always",
   },
   // Explorer
   "explorer.compactFolders": false,
@@ -26,18 +30,17 @@
   "workbench.tree.indent": 16,
   "workbench.iconTheme": "vscode-icons",
   "workbench.colorTheme": "Default Dark+",
-
-  //
+  // Files
   "files.autoSave": "afterDelay",
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
-  //
+  // Git
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
   "git.branchRandomName.enable": true,
   "git.autofetch": "all",
-  //
+  // Terminal
   "terminal.integrated.fontSize": 15,
   "terminal.integrated.minimumContrastRatio": 1,
   "terminal.integrated.defaultLocation": "editor",
@@ -45,6 +48,7 @@
   "terminal.integrated.suggest.providers": {
     "vscode.terminal-suggest": false,
   },
+
   //
   "markdown.extension.toc.levels": "2..6",
   "diffEditor.ignoreTrimWhitespace": false,
