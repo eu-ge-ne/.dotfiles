@@ -24,6 +24,8 @@ brew "lcov"
 brew "neovim"
 # Open-source, cross-platform JavaScript runtime environment
 brew "node"
+# OCaml package manager
+brew "opam"
 # Fast, disk space efficient package manager
 brew "pnpm"
 # PDF rendering library (based on the xpdf-3.0 code base)
@@ -46,6 +48,8 @@ brew "yt-dlp"
 brew "eu-ge-ne/tap/toy"
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
 brew "oven-sh/bun/bun"
+# Universal database tool and SQL client
+cask "dbeaver-community"
 cask "font-fira-code"
 cask "font-fira-code-nerd-font"
 cask "font-symbols-only-nerd-font"
@@ -59,3 +63,5 @@ cask "kitty"
 cask "pearcleaner"
 # Multimedia player
 cask "vlc"
+# Multiplayer code editor
+cask "zed"
