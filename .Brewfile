@@ -1,4 +1,5 @@
 tap "eu-ge-ne/tap"
+tap "nats-io/nats-tools"
 tap "oven-sh/bun"
 # Static checker for GitHub Actions workflow files
 brew "actionlint"
@@ -20,6 +21,8 @@ brew "go"
 brew "graphviz"
 # Graphical front-end for GCC's coverage testing tool (gcov)
 brew "lcov"
+# Lightweight cloud messaging system
+brew "nats-server"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Open-source, cross-platform JavaScript runtime environment
@@ -46,6 +49,8 @@ brew "yazi"
 brew "yt-dlp"
 # Minimalistic TUI text editor
 brew "eu-ge-ne/tap/toy"
+# NATS utility
+brew "nats-io/nats-tools/nats"
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
 brew "oven-sh/bun/bun"
 # Universal database tool and SQL client
@@ -61,6 +66,8 @@ cask "keepassxc"
 cask "kitty"
 # Utility to uninstall apps and remove leftover files from old/uninstalled apps
 cask "pearcleaner"
+# Process monitor
+cask "processspy"
 # Multimedia player
 cask "vlc"
 # Multiplayer code editor
